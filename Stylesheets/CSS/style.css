@@ -6,28 +6,41 @@ html {
 body {
   background-color: lightgrey;
 }
+
+/* Header section */
+.top {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  margin-top: -13rem;
+  border: solid black;
+  padding: 1rem 15rem 8rem 15rem;
+  background-color: wheat;
+  margin-left: 7rem;
+  opacity: 0.85;
+}
 .top h1 {
   font-family: 'Fredericka the Great', cursive;
   font-size: 4rem;
   text-align: center;
-  margin-top: 2rem;
-  border: solid black;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  background-color: wheat;
-  width: 100% auto;
-  margin-left: 6rem;
-  margin-right: 6rem;
+
+}
+.top p {
+  font-size: 1rem;
+  text-align: right;
+  margin-left: 34rem;
+  margin-top: -3rem;
+
 }
 
+/* Navigation */
 #nav {
   display: flex;
   align-items: center;
   justify-content: center;
-
+  background-color: darkgray;
+  margin-top: 15rem;
 }
-
-
 #nav li {
   display: inline-block;
   text-align: center;
@@ -37,15 +50,15 @@ body {
   height: 80px;
   padding-left: 2rem;
   padding-right: 2rem;
-
-
 }
 
-  ul h2:hover {
-    color: dimgrey;
-    text-decoration: underline;
+ul h2:hover {
+  color: dimgrey;
+  text-decoration: underline;
 
   }
+
+  /* Main section */
   .pens {
     display: flex;
   }
@@ -74,6 +87,8 @@ body {
     margin-bottom: 2rem;
     height: 8rem;
   }
+
+  /* Query's */
 
   @media only screen and (max-width: 450px){
     .top h1 {
