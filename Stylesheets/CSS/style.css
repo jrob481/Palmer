@@ -61,6 +61,7 @@ ul h2:hover {
   /* Main section */
   .pens {
     display: flex;
+    flex-direction: row;
   }
 
   .pens img {
