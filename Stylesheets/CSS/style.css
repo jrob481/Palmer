@@ -11,7 +11,7 @@ body {
 .top {
   display: flex;
   flex-direction: row;
-  position: fixed;
+  position: absolute;
   margin-top: -13rem;
   border: solid black;
   padding: 1rem 15rem 8rem 15rem;
@@ -72,22 +72,48 @@ ul h2:hover {
     border: solid black;
   }
 
+  .bowl img {
+    height: 30%;
+    width: 30%;
+  }
+
+  .video iframe {
+    margin-left: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .bottom {
+    display: flex;
+    background-color: gray;
+    margin: 4rem 5rem 2rem 5rem;
+    height: 20rem;
+  }
+
   .bottom p {
     font-size: 1rem;
-    margin-top: 8rem;
+    margin-top: 2rem;
     margin-bottom: 4rem;
-    margin-left: 6rem;
+    margin-left: 2rem;
     text-align: left;
-    padding-top: 3.5rem;
+    padding-top: 4.5rem;
 
   }
-  .bottom {
-    background-color: dimgrey;
-    margin-left: 6rem;
-    margin-right: 6rem;
-    margin-bottom: 2rem;
-    height: 8rem;
+
+  .bottom h3 {
+    font-size: .70rem;
+    float: right;
+    padding-right: 1rem;
+    margin-top: 1rem;
   }
+  .bottom h2 {
+    font-size: .85rem;
+    float: right;
+    margin-bottom: 20px;
+    border: solid black;
+  }
+
+
 
   /* Query's */
 
